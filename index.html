@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tache 05</title>
+</head>
+<body>
+    <h1>Les tableaux</h1>
+    <p style="text-decoration: underline; font-weight: bold;">Exercice 1:</p>
+    <p> Soit le tableau var mois = [ 'janvier', février, mars, avril, mai, juin, juillet ];</p>
+    <ol>
+        <li>Retirer le dernière valeur du tableau moi</li>
+        <br>
+        <li>Afficher les valeurs du tableau en utilisant la méthode document.write</li>
+        <br>
+        <script>
+            let a='janvier';
+            let b='février';
+            let c='mars';
+            let d='avril';
+            let e='mai';
+            let f='juin';
+            var mois=['janvier', b, c, d, e, f];
+                document.write("<table><br>");
+                document.write("<tr>");
+                document.write("<td>" ,mois,"</td>");
+                document.write("</tr>");
+                document.write("</table><br>");
+        </script>
+        <br>
+        <li>Ajouter la valeur ‘août’ à la fin du tableau</li>
+        <br>
+        <script>
+                mois.push('août')
+                document.write("<br>",mois,"<br>"); 
+        </script>
+        <br>
+        <li>Remplacer la valeur 'février' par ‘février’</li>
+        <br>
+        <script>
+                mois.b='février';
+                document.write("<br>",mois.b,"<br>");
+        </script>
+        <br>
+        <br>
+        <li>Afficher le nombre de valeurs du tableau en utilisant la méthode document.write</li>
+        <br>
+        <script>
+                document.write(mois.length);
+        </script>
+        <br>
+        <br>
+        <li>Afficher la troisième valeur du tableau</li>
+        <br>
+        <script>
+            document.write(mois[2]);
+        </script>
+    </ol>
+
+</body>
+</html>
